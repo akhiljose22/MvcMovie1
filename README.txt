@@ -179,4 +179,10 @@ Part 9 completed.
 In Part 10  we have examined the Details and Delete methods of this application as sid in the tutorial
 
 1410
-Github account is created and cloned the project Mvc Movie to the Github
+Github account is created and cloned the project MvcMovie1 to the Github.
+Created a repository in the github. Go to the Github account and changed the access from private to public.
+Went to the Visual studio. Updated the seedata with new list of movies. Deleted all the movie list from the view page from the browser.
+Ran the machine and we confirmed that the change was successfull.
+Then the changes which made are commited and pushed to the Gihub repository
+URL for Githib
+
