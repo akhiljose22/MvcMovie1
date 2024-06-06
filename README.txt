@@ -185,4 +185,4 @@ Went to the Visual studio. Updated the seedata with new list of movies. Deleted 
 Ran the machine and we confirmed that the change was successfull.
 Then the changes which made are commited and pushed to the Gihub repository
 URL for Githib
-
+https://github.com/akhiljose22/MvcMovie1.git
