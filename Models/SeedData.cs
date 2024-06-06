@@ -23,7 +23,7 @@ public static class SeedData
             context.Movie.AddRange(
                 new Movie
                 {
-                    Title = "Shutter Island",
+                    Title = "Inception",
                     ReleaseDate = DateTime.Parse("2010-6-16"),
                     Genre = "Science Fiction",
                     Rating = "R",
@@ -31,28 +31,38 @@ public static class SeedData
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters ",
-                    ReleaseDate = DateTime.Parse("1984-3-13"),
+                    Title = "Tedd",
+                    ReleaseDate = DateTime.Parse("2012-6-29"),
                     Genre = "Comedy",
                     Rating = "R",
                     Price = 8.99M
                 },
                 new Movie
                 {
-                    Title = "Ghostbusters 2",
-                    ReleaseDate = DateTime.Parse("1986-2-23"),
-                    Genre = "Comedy",
+                    Title = "Vampire Dairies",
+                    ReleaseDate = DateTime.Parse("2009-8-10"),
+                    Genre = "Drama",
                     Rating = "R",
                     Price = 9.99M
                 },
                 new Movie
                 {
-                    Title = "Rio Bravo",
-                    ReleaseDate = DateTime.Parse("1959-4-15"),
-                    Genre = "Western",
+                    Title = "Safe Heaven",
+                    ReleaseDate = DateTime.Parse("2013-2-14"),
+                    Genre = "Romantic",
+                    Rating = "R",
+                    Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Sherlock Holmes",
+                    ReleaseDate = DateTime.Parse("2009-12-25"),
+                    Genre = "Thriller",
                     Rating = "R",
                     Price = 3.99M
                 }
+
+
             );
             context.SaveChanges();
         }
